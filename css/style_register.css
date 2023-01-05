@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_register {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Phần bên trái logo */
+
+.left_logo {
+    position: absolute;
+    left: 21%;
+    top: 13%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 100px;
+    height: 500px;
+    width: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 4px 8px 20px #999999;
+    background-image: url(../img/logo_large.jpg);
+    background-size: 100%;
+}
+
+.logo_img {
+    width: 240px;
+    margin-top: 25px;
+}
+
+
+/* Phần bên phải đăng ký */
+
+.right_sign_up {
+    position: absolute;
+    right: 21%;
+    top: 13%;
+    background-color: rgb(20, 19, 19);
+    padding-top: 30px;
+    height: 500px;
+    width: 445px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 8px 20px #999999;
+}
+
+.text_register {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.input_name,
+.input_number,
+.input_address,
+.input_email,
+.input_password,
+.input_repassword {
+    width: 280px;
+    padding: 10px 10px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.input_name:focus,
+.input_number:focus,
+.input_address:focus,
+.input_email:focus,
+.input_password:focus,
+.input_repassword:focus {
+    opacity: 0.8;
+}
+
+.text_name,
+.text_address,
+.text_password {
+    margin: 10px 0;
+}
+
+.btn_submit_register {
+    padding: 10px 70px;
+    font-size: 17px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19);
+    color: #fff;
+    border-color: #fff;
+    margin-top: 10px;
+    transition: all 0.2s linear;
+}
+
+.btn_submit_register:hover {
+    opacity: 0.6;
+}
+
+.text_password,
+.text_repassword {
+    position: relative;
+}
+
+.ti-eye {
+    position: absolute;
+    top: 14px;
+    right: 88px;
+    cursor: pointer;
+}
+
+.error_text_repassword {
+    position: relative;
+}
+
+.text_error {
+    position: absolute;
+    color: #fff;
+    right: 104px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.button_register {
+    margin-top: 25px;
+}
+
+
+
+

@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box_login {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left_sign_in {
+    position: absolute;
+    left: 35%;
+    top: 13%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 43px;
+    height: 500px;
+    width: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 4px 8px 20px #999999;
+}
+
+.title,.icon_conn {
+    line-height: 50px;
+}
+
+.input_email,.input_password {
+    width: 280px;
+    padding: 10px 10px;
+    height: 45px;
+}
+
+.text_password {
+    margin-top: 20px;
+}
+
+.btn_sign_in {
+    margin-top: 30px;
+}
+
+.btn_in {
+    padding: 10px 70px;
+    font-size: 17px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19);
+    color: #fff;
+    border-color: #fff;
+    margin-top: 10px;
+    transition: all 0.2s linear;
+}
+
+.btn_in:hover {
+    opacity: 0.6;
+}
+
+.forgot_pwd .detail_forgot {
+    text-decoration: none;
+    color: rgba(89, 85, 85, 0.9);
+    transition: all 0.2s linear;
+}
+
+.detail_forgot:hover {
+    opacity: 0.6;
+}
+
+.icon_sign_in {
+    text-decoration: none;
+    padding: 8px;
+    color: #333;
+    /* border-radius: 10px;
+    border: solid rgb(170, 164, 164); */
+    margin-left: 10px;
+}
+
+.text_password {
+    position: relative;
+}
+
+.ti-eye {
+    position: absolute;
+    top: 14px;
+    right: 88px;
+    cursor: pointer;
+}
+
+.logo_back_home {
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* .right_sign_up {
+    position: absolute;
+    right: 21%;
+    top: 13%;
+    background-color: rgb(20, 19, 19);
+    padding-top: 170px;
+    height: 500px;
+    width: 445px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 8px 20px #999999;
+}
+
+.intro_register {
+    margin: 30px 0;
+}
+
+.title_register {
+    font-size: 40px;
+    color: #fff;
+}
+
+.title_intro {
+    font-size: 19px;
+    color: #fff;
+}
+
+.btn_up {
+    padding: 10px 70px;
+    font-size: 17px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19);
+    color: #fff;
+    border-color: #fff;
+    margin-top: 10px;
+    transition: all 0.2s linear;
+}
+
+.btn_up:hover {
+    opacity: 0.6;
+} */
